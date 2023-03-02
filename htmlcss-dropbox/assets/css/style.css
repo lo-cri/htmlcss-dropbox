@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 14px;
+}
+
+header{
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    width: 20px;
+}
+
+li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.flex li:hover{
+    border-bottom: 1px solid black;
+}
+
+.inizia{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.inizia2{
+    background-color: white;
+    border: 1px solid lightslategrey;
+    padding: 10px 10px;
+}
+
+.xx{
+    background-color: lightskyblue;
+}
+
+.bluebutt{
+    width: 750px;
+    margin: 0px auto;
+    position: relative;
+    bottom: -100px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    margin: 5px 0;
+}
+
+.x4{
+    display: flex;
+}
+
+.x5{
+    flex-basis: 30%;
+    margin: 20px 0;
+}
+
+.x6{
+    flex-basis: 70%;
+}
+
+.xx div.x6 img{
+    width: 150%;
+    margin: 20px 0;
+}
+
+.fa-arrow-down{
+    margin-top: 30px;
+    width: 150px;
+}
+
+.secondasezione{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 650px;
+    margin: 100px auto;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.checks{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+#check1{
+    margin-right: 20px;
+}
+
+.trecolonne{
+    display: flex;
+    justify-content: row;
+}
+
+.team{
+    width: 650px;
+    margin: -10px auto 0px;
+}
+
+.col-30{
+    flex-basis: 30%;
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
+#colonna1{
+    display: flex;
+    flex-direction: column;
+    line-height: 20%;
+}
+
+#hr-long{
+    border: 0.5px solid lightgrey;
+}
+
+#hr-short{
+    border: 0.5px solid lightgrey;
+    width: 25%;
+    margin: 10px 0 10px 10px;
+}
+
+.singolo{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.bordo{
+    border: 1px solid lightgrey;
+}
+
+.titolo{
+    text-align: center;
+}
+
+
+.buttontrans{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.buttontrans a:link{
+    border: 1px solid lightslategrey;
+    padding: 5px 5px;
+}
+
+.enterprise{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    vertical-align:middle;
+}
+
+.width-enterprise{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.button{
+    background-color: blue;
+    height: 15px;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+}
+
+.div-white{
+    margin: 100px;
+}
+
+
+.partner{
+    display: flex;
+    flex-direction: row;
+}
+
+.partner img{
+    float: left;
+    width: 400px;
+}
+
+.cards{
+    margin-top: 30px;
+}
+
+.row-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single-card{
+    width:300px;
+    margin: 0 10px;
+}
+
+.img-card{
+    width: 250px;
+}
+
+.business{
+    margin-top: 120px;
+}
+
+.business a:link{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* RIQUADRI 4 BELLI COLORATI */
+
+.x{
+    background-color: lightgreen;
+}
+
+.xx{
+    background-color: darkred;
+}
+
+.xxx{
+    background-color: lightskyblue;
+}
+
+.xxxx{
+    background-color: red;
+}
+
+.riquadro-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.float{
+    float: left;
+    width: 30%;
+    height: 30vw;
+}
+
+/* .x,
+.xx,
+.xxx,
+.xxxx{
+    width: auto;
+    height: auto;
+}
+
+.x img,
+.xx img,
+.xxx img,
+.xxxx img{
+    width: 210px;
+    height: 210px;
+} */
+
+.centre-img{
+    float: left;
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.centre-img img{
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.desi-11{
+    background-color: lightgrey;
+    width: 33%;
+}
+
+.desi-12 img{
+    width: 200px;
+}
+
+.blue-bg{
+    background-color: lightblue;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.blue-bg h2{
+    color: brown;
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
+.span-btn{
+    margin-top: 50px;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+}
+
+
+.faq{
+    margin-top: 100px;
+    /* margin-left: 50px; */
+    margin-inline: 10%;
+}
+
+.h-faq{
+    margin-bottom: 50px;
+}
+
+.span-faq{
+    border-top: 1px solid lightslategrey;
+    border-bottom: 1px solid lightslategrey;
+    width: 500px;
+    padding: 20px 0;
+}
+
+
+
+/* footer e links */
+.info{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coral{
+    font-size: 14px;
+    width: 400px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+h4{
+    font-size: 20px;
+    color: white;
+}
+
+.acquamarine{
+    width: 120px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.extrainfo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid darkgrey;
+}
